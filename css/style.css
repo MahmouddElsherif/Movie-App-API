@@ -1,0 +1,198 @@
+::selection{
+  color: black;
+  background-color: white;
+}
+#home{
+  background-color: black;
+}
+
+.content input::placeholder {
+  color: #636972;
+  
+}
+
+
+.sideBar{
+  top: 0;
+  left: -250px;
+  bottom:0;
+  width: 250px;
+  background-color: black;
+  position: relative;
+}
+
+.sideBarLinks{
+  height: 550px;
+}
+.sideBarLinks ul{
+  list-style: none;
+}
+.sideBarLinks ul li{
+  margin-bottom: 20px;
+}
+
+.sideBarLinks ul li a{
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all;
+}
+
+.sideBarLinks ul > li {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s all;
+  margin-top: 30px;
+}
+
+.sideBarLinks ul li a:hover{
+  color: red;
+}
+
+.sideBarFooter{
+  transform: translateX(10px);
+}
+
+.sideBarFooter ul li{
+  margin-right: 20px;
+  transform: translateX(-30px);
+}
+
+.sideBarFooter ul li i{
+  cursor: pointer;
+}
+
+.contentFooter span a{
+  text-decoration: none;
+  color: red;
+}
+
+.contentFooter span a:hover{
+  color: rgb(200, 0, 0);
+}
+
+.closeAndOpenSideBar{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  width: 60px;
+  left: 100%;
+}
+
+.designCloseAndOpenSideBar{
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(30px);
+}
+
+.designCloseAndOpenSideBar .icon1{
+  display: flex;
+  justify-content: center;
+
+}
+
+.designCloseAndOpenSideBar .icon2{
+
+  cursor: pointer;
+}
+.designCloseAndOpenSideBar .icon3{
+  display: flex;;
+  flex-direction: column;
+}
+
+.designCloseAndOpenSideBar .icon3 > i{
+margin-bottom: 5px;
+}
+
+
+.contentFooter p{
+  color: #636972;
+}
+
+.rating{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+
+
+.rating p{
+  transform: translateY(10px);
+}
+
+.myLayer{
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.myDiv:hover .myLayer{
+  opacity: 1;
+}
+
+.myLayer{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imgage{
+  transition: 0.5s all;
+}
+
+.myDiv:hover .imgage {
+  transform: rotate(2deg) scale(1.08)
+}
+
+.contactus {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contactUsDetaisl input::placeholder{
+  text-align: center;
+  color: #636972;
+}
+
+
+.contactUsDetaisl input {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid white;
+
+}
+
+.form-control{
+  color: white;
+}
+
+.form-control:focus{
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+
+}
+
+.fa-arrow-up{
+  bottom: 10px;
+  right: 10px;
+}
+
+.iconToUp{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* display: none; */
+
+}
+
+
